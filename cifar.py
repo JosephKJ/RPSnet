@@ -86,7 +86,8 @@ if use_cuda:
 def main():
 
 
-    model = RPS_net_cifar(args).cuda() 
+    model = RPS_net_cifar(args).cuda()
+    print(model)
     print('    Total params: %.2fM' % (sum(p.numel() for p in model.parameters())/1000000.0))
 
     

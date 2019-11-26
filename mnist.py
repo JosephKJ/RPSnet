@@ -38,8 +38,6 @@ from learner import Learner
 from util import *
 from cifar_dataset import CIFAR100
 
-
-
 class args:
     epochs = 10
     checkpoint = "results/mnist/RPS_net_minst"
